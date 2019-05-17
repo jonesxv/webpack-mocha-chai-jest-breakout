@@ -4,6 +4,6 @@ require('./main.css')
 const { testing } = require('./lib')
 
 document.addEventListener('DOMContentLoaded', () => {
-    testing()
+    // testing()
 })
 
