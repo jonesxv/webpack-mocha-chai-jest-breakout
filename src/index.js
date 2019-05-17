@@ -5,6 +5,5 @@ const { testing } = require('./lib')
 
 document.addEventListener('DOMContentLoaded', () => {
     testing()
-    console.log('wats')
 })
 
