@@ -1,8 +1,22 @@
 const { expect } = require('chai')
-const { testing } = require('./lib')
+const { add, subtract } = require('./lib')
 
-describe('testing', function () {
+describe('add', function () {
     it('should be a function', function () {
-        expect(testing).to.be.a('function')
+        expect(add).to.be.a('function')
+    })
+
+    it('should return a number', function () {
+        expect(typeof add(1, 2)).to.equal("number")
+    })
+})
+
+describe('subtract', function () {
+    it('should be a function', function () {
+        expect(subtract).to.be.a('function')
+    })
+
+    it('should return a number', function () {
+        expect(typeof subtract(1, 2)).to.equal("number")
     })
 })

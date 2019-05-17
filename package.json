@@ -8,7 +8,8 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
-    "test": "nodemon --exec \"mocha src/tests\""
+    "test": "nodemon --exec \"mocha src/tests\"",
+    "coverage": "nodemon --exec \" nyc mocha src/tests\""
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "html-webpack-plugin": "^3.2.0",
     "mocha": "^6.1.4",
     "nodemon": "^1.19.0",
+    "nyc": "^14.1.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",

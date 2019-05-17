@@ -1,5 +1,8 @@
 module.exports = {
-    testing: function () {
-        console.log('hello, world')
+    add: function (numOne, numTwo) {
+        return numOne + numTwo
+    },
+    subtract: function (numOne, numTwo) {
+        return numOne - numTwo
     }
 }
