@@ -9,7 +9,7 @@
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
     "test": "nodemon --exec \"mocha src/tests\"",
-    "coverage": "nodemon --exec \" nyc mocha src/tests\""
+    "coverage": "nyc mocha src/tests"
   },
   "keywords": [],
   "author": "",
