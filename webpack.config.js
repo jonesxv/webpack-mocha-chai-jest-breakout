@@ -10,9 +10,11 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Output Management',
-            template: './src/index.html'
-        })
+            title: 'App',
+            filename: 'index.html',
+            template: './src/index.html',
+            chunks: ['app']
+        }),
     ],
     devServer: {
         contentBase: 'dist'

@@ -1,8 +1,10 @@
-import './normalize.css'
-import './main.css'
+require('./normalize.css')
+require('./main.css')
+
+const { testing } = require('./lib')
 
 document.addEventListener('DOMContentLoaded', () => {
-
+    testing()
     console.log('wats')
 })
 
